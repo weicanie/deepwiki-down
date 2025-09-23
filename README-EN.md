@@ -34,7 +34,7 @@ DeepWiki is built with Next.js, and the RSC responses of the site already contai
 ```bash
 python -m src.interface.cli wiki \
 "https://deepwiki.com/username/repository" \
---o "/path/to/output"
+-o "/path/to/output"
 ```
 
 ---
@@ -46,3 +46,4 @@ python -m src.interface.cli wiki \
 3. Commit your changes (`git commit -m 'Add some amazing feature'`).
 4. Push to the branch (`git push origin feature/amazing-feature`).
 5. Open a Pull Request.
+
