@@ -1,6 +1,6 @@
 # deepwiki-get
 
-<p align="center">
+<p>
   <a href="README.md">简体中文</a> | <a href="README-EN.md">English</a>
 </p>
 **将deepwiki站点转换为md文件。**
