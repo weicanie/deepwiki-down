@@ -2,31 +2,23 @@
 
 Convert the deepwiki site to md files.
 
-## 📖 RSC Interception Principle
+## 📖 Working Principle
 
-### Technical Background
+DeepWiki is built with Next.js, and the RSC responses of the site already contain the complete Markdown content. The project directly acquires the site's md text by intercepting RSC requests.
 
-DeepWiki is built with Next.js and adopts React Server Components (RSC) technology. Traditional web crawlers need to parse complex HTML structures, while the RSC responses already contain the complete Markdown content.
-Interception Process
+**RSC Interception**
 
-```mermaid
-graph TB
-subgraph "Traditional Method vs RSC Interception"
-subgraph "Traditional HTML Parsing"
-A1[Access Webpage] --> A2[Download HTML]
-A2 --> A3[Parse DOM]
-A3 --> A4[Extract Content]
-A4 --> A5[Convert HTML to Markdown]
-A5 --> A6[Handle Formatting Issues]
-end
+- Intercepts RSC requests
+- Extracts Markdown content
 
-subgraph "RSC Interception Method"
-B1[Intercept RSC Request] --> B2[Extract Markdown Content]
-end
-end
-```
+**Spider Crawling (Comparison)**
 
----
+- Visits web pages
+- Downloads HTML
+- Parses DOM
+- Converts HTML to Markdown
+- Routing
+- ...
 
 ## 🚀 Instructions for Use
 
