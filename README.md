@@ -43,15 +43,14 @@ python -m playwright install chromium
 ```bash
 python -m src.interface.cli wiki \
 	"https://deepwiki.com/username/repository" \
-	--o "/path/to/output"
+	-o "/path/to/output"
 ```
 
 ### 参数说明
 
 | 参数       | 类型   | 必需 | 说明              |
 | ---------- | ------ | ---- | ----------------- |
-| `--url`    | string | ✅   | DeepWiki 仓库 URL |
-| `--output` | string | ✅   | 输出目录路径      |
+| `-o` | string | ✅   | 输出目录路径      |
 
 ---
 
@@ -62,4 +61,5 @@ python -m src.interface.cli wiki \
 3. 提交更改 (`git commit -m 'Add some amazing feature'`)
 4. 推送到分支 (`git push origin feature/amazing-feature`)
 5. 开启 Pull Request
+
 
