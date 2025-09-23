@@ -3,7 +3,7 @@
 <p>
   <a href="README.md">简体中文</a> | <a href="README-EN.md">English</a>
 </p>
-**将deepwiki站点转换为md文件。**
+将deepwiki站点转换为md文件。
 
 ## 📖 工作原理
 
@@ -62,3 +62,4 @@ python -m src.interface.cli wiki \
 3. 提交更改 (`git commit -m 'Add some amazing feature'`)
 4. 推送到分支 (`git push origin feature/amazing-feature`)
 5. 开启 Pull Request
+
