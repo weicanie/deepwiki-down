@@ -3,13 +3,13 @@
 <p>
   <a href="README.md">简体中文</a> | <a href="README-EN.md">English</a>
 </p>
-将deepwiki站点转换为md文件。
+快速地将deepwiki站点转换为md文件。
 
 ## 📖 工作原理
 
 DeepWiki 使用 Next.js 构建，站点的 RSC 响应中已经包含了完整的 Markdown 内容。
 
-项目通过拦截 RSC 请求的方式直接获取站点 md 文本。
+项目通过拦截 RSC 请求的方式直接获取站点 md 文本。因此速度很快。
 
 **RSC 拦截**
 
@@ -61,5 +61,6 @@ python -m src.interface.cli wiki \
 3. 提交更改 (`git commit -m 'Add some amazing feature'`)
 4. 推送到分支 (`git push origin feature/amazing-feature`)
 5. 开启 Pull Request
+
 
 
