@@ -1,10 +1,10 @@
 # deepwiki-get
 
-Convert the deepwiki site to md files.
+Quickly Convert the deepwiki site to md files.
 
 ## 📖 Working Principle
 
-DeepWiki is built with Next.js, and the RSC responses of the site already contain the complete Markdown content. The project directly acquires the site's md text by intercepting RSC requests.
+DeepWiki is built with Next.js, and the RSC responses of the site already contain the complete Markdown content. This project directly acquires the site's md text by intercepting RSC requests. So it's very quick.
 
 **RSC Interception**
 
@@ -46,4 +46,5 @@ python -m src.interface.cli wiki \
 3. Commit your changes (`git commit -m 'Add some amazing feature'`).
 4. Push to the branch (`git push origin feature/amazing-feature`).
 5. Open a Pull Request.
+
 
